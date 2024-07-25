@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "csv-to-bedgraph"
+version = "0.1.0"
+description = ""
+authors = ["Jan Havlik <jan.havlik@firma.seznam.cz>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+csv_to_bedgraph = "csv_to_bedgraph:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
