@@ -39,3 +39,5 @@ def main():
                 bg_file.write(f"{chr} {int(row['Position'])} {end} {row['Length']} {row['Spacer length']} {row['Mismatch count']}\n")
 
 
+if __name__ == "__main__":
+    main()
